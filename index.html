@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jasa Pembuatan Website & Aplikasi Custom | Garudev</title>
+    <meta
+      name="description"
+      content="Jasa pembuatan website dan aplikasi custom untuk bisnis, perusahaan, sekolah, UMKM, dan startup."
+    />
+
+    <meta
+      property="og:title"
+      content="Jasa Pembuatan Website & Aplikasi Custom | Garudev"
+    />
+    <meta
+      property="og:description"
+      content="Bangun website dan aplikasi custom sesuai kebutuhan bisnis Anda."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://garudev.example.com/" />
+    <meta property="og:image" content="assets/images/hero/og-cover.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="page-top" aria-hidden="true"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+      <div class="container navbar__inner">
+        <a
+          href="index.html"
+          class="navbar__brand"
+          aria-label="Garudev, halaman utama"
+        >
+          <img
+            src="logo.png"
+            alt="Garudev Logo"
+            class="navbar__mark"
+          />
+        </a>
+
+        <nav class="navbar__nav" id="navbar-nav" aria-label="Navigasi utama">
+          <ul class="navbar__menu">
+            <li><a href="#services" class="navbar__link">Layanan</a></li>
+            <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
+            <li><a href="#process" class="navbar__link">Proses</a></li>
+            <li><a href="#pricing" class="navbar__link">Harga</a></li>
+            <li><a href="#faq" class="navbar__link">FAQ</a></li>
+          </ul>
+          <a
+            href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website%2Faplikasi%20custom.%20Saya%20ingin%20berkonsultasi%20mengenai%20project%20saya."
+            class="btn btn--primary navbar__cta"
+            target="_blank"
+            rel="noopener"
+            >Konsultasi Gratis</a
+          >
+        </nav>
+
+        <button
+          class="navbar__toggle"
+          id="navbar-toggle"
+          aria-label="Buka menu"
+          aria-expanded="false"
+          aria-controls="navbar-nav"
+        >
+          <i data-lucide="menu"></i>
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ================= HERO ================= -->
+      <section class="hero" id="hero">
+        <div class="hero__glow" aria-hidden="true"></div>
+
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="eyebrow">DIGITAL DEVELOPMENT PARTNER</p>
+
+            <h1 class="hero__title">
+              Bangun
+              <span class="text-accent">website &amp; aplikasi custom</span>
+              sesuai kebutuhan bisnis Anda.
+            </h1>
+
+            <p class="hero__desc">
+              Dari company profile hingga aplikasi bisnis kompleks, kami
+              membangun perangkat lunak yang benar-benar dipakai dalam
+              operasional bisnis Anda.
+            </p>
+
+            <div class="hero__actions">
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website%2Faplikasi%20custom.%20Saya%20ingin%20berkonsultasi%20mengenai%20project%20saya."
+                class="btn btn--primary btn--lg"
+                target="_blank"
+                rel="noopener"
+              >
+                Konsultasi Gratis
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+
+            <ul class="hero__stats">
+              <li>
+                <strong>50+</strong>
+                <span>project dikerjakan</span>
+              </li>
+              <li>
+                <strong>30+</strong>
+                <span>client aktif</span>
+              </li>
+              <li>
+                <strong>3+</strong>
+                <span>tahun pengalaman</span>
+              </li>
+            </ul>
+          </div>
+
+          <figure class="hero__media" data-reveal>
+            <div class="hero__frame">
+              <!-- TODO: ganti dengan foto/screenshot project asli, rasio 4:5 -->
+              <img
+                src="https://picsum.photos/seed/garudev-studio/960/1080"
+                alt="Workspace pengembangan aplikasi oleh tim Garudev"
+                width="960"
+                height="1080"
+                loading="eager"
+              />
+            </div>
+            <figcaption class="hero__card">
+              <span class="hero__card-label">Project terbaru</span>
+              <strong>SiPelajar</strong>
+              <span>School management system</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ================= TRUST STRIP ================= -->
+      <section class="trust" id="trust" aria-label="Target pengguna">
+        <div class="container trust__inner">
+          <span class="trust__label">Melayani</span>
+          <ul class="trust__list">
+            <li>UMKM</li>
+            <li>Perusahaan</li>
+            <li>Sekolah</li>
+            <li>Startup</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ================= PROBLEMS ================= -->
+      <section class="problems" id="problems">
+        <div class="container">
+          <h2 class="section-title">
+            Punya ide digital tapi bingung mulai dari mana?
+          </h2>
+          <p class="section-desc">
+            Tidak semua bisnis membutuhkan software yang sama. Kami bantu
+            menemukan bentuk sistem yang paling pas dengan cara kerja Anda.
+          </p>
+
+          <div class="problems__grid">
+            <article class="problem-card" data-reveal>
+              <h3>Website tidak profesional</h3>
+              <p>
+                Website lama atau template tidak mencerminkan kualitas bisnis
+                Anda.
+              </p>
+            </article>
+
+            <article class="problem-card" data-reveal>
+              <h3>Proses masih manual</h3>
+              <p>
+                Data masih dikelola lewat Excel, WhatsApp, atau pencatatan
+                manual.
+              </p>
+            </article>
+
+            <article class="problem-card" data-reveal>
+              <h3>Sistem tidak sesuai</h3>
+              <p>
+                Software siap pakai tidak selalu cocok dengan workflow bisnis
+                Anda.
+              </p>
+            </article>
+
+            <article class="problem-card problem-card--dark" data-reveal>
+              <h3>Tidak punya tim IT</h3>
+              <p>
+                Bisnis butuh mitra teknis tanpa harus membangun tim sendiri.
+              </p>
+              <a
+                class="problem-card__link"
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20digital%20bisnis%20saya."
+                target="_blank"
+                rel="noopener"
+              >
+                Konsultasi Gratis <i data-lucide="arrow-up-right"></i>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SERVICES ================= -->
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="section-title">Jenis layanan yang bisa kami kerjakan</h2>
+          <p class="section-desc">
+            Dari website sederhana hingga aplikasi bisnis yang kompleks,
+            dibangun khusus untuk cara kerja Anda.
+          </p>
+
+          <div class="services__grid">
+            <article class="service-card service-card--featured" data-reveal>
+              <div class="service-card__media">
+                <!-- TODO: ganti dengan screenshot aplikasi custom asli -->
+                <img
+                  src="https://picsum.photos/seed/garudev-app/1000/560"
+                  alt="Contoh tampilan custom web application"
+                  width="1000"
+                  height="560"
+                  loading="lazy"
+                />
+              </div>
+              <div class="service-card__body">
+                <h3>Custom Web Application</h3>
+                <p>
+                  Aplikasi yang dibangun sesuai kebutuhan dan workflow bisnis
+                  Anda. Cocok untuk sistem internal, rental, booking, hingga
+                  POS.
+                </p>
+                <ul class="service-card__chips">
+                  <li>Management system</li>
+                  <li>Rental &amp; Booking</li>
+                  <li>Inventory &amp; CRM</li>
+                  <li>School system</li>
+                  <li>POS</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <h3>Company Profile</h3>
+              <p>
+                Website profesional untuk meningkatkan kredibilitas perusahaan
+                Anda.
+              </p>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <h3>Landing Page</h3>
+              <p>
+                Halaman conversion-oriented untuk produk, campaign, atau
+                personal brand.
+              </p>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <h3>E-Commerce</h3>
+              <p>Toko online lengkap dengan pengelolaan produk hingga order.</p>
+              <ul class="service-card__chips">
+                <li>Cart &amp; checkout</li>
+                <li>Payment</li>
+                <li>Order</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <h3>Dashboard &amp; Admin Panel</h3>
+              <p>Kelola data dan ambil keputusan dengan analitik yang jelas.</p>
+              <ul class="service-card__chips">
+                <li>Analytics</li>
+                <li>User management</li>
+                <li>Reports</li>
+              </ul>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <h3>API &amp; Integration</h3>
+              <p>
+                Integrasi payment gateway, WhatsApp, shipping, dan third-party
+                API.
+              </p>
+              <ul class="service-card__chips">
+                <li>Payment gateway</li>
+                <li>Shipping</li>
+                <li>Google services</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= WHY US ================= -->
+      <section class="why-us" id="why-us">
+        <div class="container">
+          <h2 class="section-title">Kenapa memilih kami?</h2>
+
+          <div class="why-us__list">
+            <div class="why-us__group">
+              <article class="why-item" data-reveal>
+                <h3>Dibangun custom</h3>
+                <p>Dibuat sesuai kebutuhan bisnis, bukan dari template jadi.</p>
+              </article>
+              <article class="why-item" data-reveal>
+                <h3>Design yang enak dipakai</h3>
+                <p>Tampilan bersih, rapi di layar kecil maupun besar.</p>
+              </article>
+              <article class="why-item" data-reveal>
+                <h3>Keamanan diperhatikan</h3>
+                <p>
+                  Autentikasi, validasi, dan perlindungan data dijaga sejak
+                  awal.
+                </p>
+              </article>
+            </div>
+            <div class="why-us__group">
+              <article class="why-item" data-reveal>
+                <h3>Bisa berkembang</h3>
+                <p>
+                  Sistem dirancang supaya mudah ditambah fitur di kemudian hari.
+                </p>
+              </article>
+              <article class="why-item" data-reveal>
+                <h3>Proses terbuka</h3>
+                <p>
+                  Scope, progress, dan kendala selalu dikomunikasikan jelas.
+                </p>
+              </article>
+              <article class="why-item" data-reveal>
+                <h3>Ada setelah selesai</h3>
+                <p>Support dan maintenance tersedia setelah project tayang.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PORTFOLIO ================= -->
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="section-title">Project yang pernah kami kerjakan</h2>
+          <p class="section-desc">
+            Beberapa website dan aplikasi yang kami bangun untuk berbagai
+            kebutuhan.
+          </p>
+
+          <div
+            class="portfolio__filters"
+            role="tablist"
+            aria-label="Filter portfolio"
+          >
+            <button class="portfolio__filter is-active" data-filter="all">
+              Semua
+            </button>
+            <button class="portfolio__filter" data-filter="website">
+              Website
+            </button>
+            <button class="portfolio__filter" data-filter="landing-page">
+              Landing Page
+            </button>
+            <button class="portfolio__filter" data-filter="ecommerce">
+              E-Commerce
+            </button>
+            <button class="portfolio__filter" data-filter="dashboard">
+              Dashboard
+            </button>
+            <button class="portfolio__filter" data-filter="custom-app">
+              Custom App
+            </button>
+          </div>
+
+          <div class="portfolio__grid" id="portfolio-grid">
+            <!-- diisi melalui JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PROCESS ================= -->
+      <section class="process" id="process">
+        <div class="container">
+          <h2 class="section-title">Bagaimana project Anda dikerjakan?</h2>
+          <div class="process__flow">
+            <div class="process__step" data-reveal>
+              <div class="process__node">01</div>
+              <div class="process__body">
+                <h3>Consultation</h3>
+                <p>
+                  Diskusi awal untuk memahami masalah bisnis, ide produk, dan
+                  sasaran yang ingin dicapai.
+                </p>
+              </div>
+            </div>
+            <div class="process__step" data-reveal>
+              <div class="process__node">02</div>
+              <div class="process__body">
+                <h3>Analysis &amp; Proposal</h3>
+                <p>
+                  Analisis kebutuhan fitur, perancangan sitemap awal, dan
+                  penentuan estimasi waktu serta budget.
+                </p>
+              </div>
+            </div>
+            <div class="process__step" data-reveal>
+              <div class="process__node">03</div>
+              <div class="process__body">
+                <h3>UI/UX Design</h3>
+                <p>
+                  Pembuatan wireframe dan desain visual (mockup) halaman untuk
+                  disetujui sebelum coding dimulai.
+                </p>
+              </div>
+            </div>
+            <div class="process__step" data-reveal>
+              <div class="process__node">04</div>
+              <div class="process__body">
+                <h3>Development</h3>
+                <p>
+                  Proses coding frontend, backend, database, serta integrasi API
+                  oleh tim developer.
+                </p>
+              </div>
+            </div>
+            <div class="process__step" data-reveal>
+              <div class="process__node">05</div>
+              <div class="process__body">
+                <h3>Quality Assurance</h3>
+                <p>
+                  Pengujian performa, fungsionalitas fitur, keamanan data, dan
+                  kesesuaian di layar mobile.
+                </p>
+              </div>
+            </div>
+            <div class="process__step" data-reveal>
+              <div class="process__node">06</div>
+              <div class="process__body">
+                <h3>Deployment &amp; Launch</h3>
+                <p>
+                  Konfigurasi server, domain, SSL, dan perilisan
+                  website/aplikasi agar bisa diakses publik.
+                </p>
+              </div>
+            </div>
+            <div class="process__step" data-reveal>
+              <div class="process__node">07</div>
+              <div class="process__body">
+                <h3>Support &amp; Maintenance</h3>
+                <p>
+                  Pendampingan teknis pasca-rilis berupa backup data, perbaikan
+                  bug, dan optimasi berkala.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= PRICING ================= -->
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <h2 class="section-title">Paket yang bisa disesuaikan kebutuhan</h2>
+          <p class="section-desc">
+            Estimasi harga mengikuti kompleksitas project. Hubungi kami untuk
+            penawaran yang sesuai.
+          </p>
+
+          <div class="pricing__grid">
+            <article class="pricing-card" data-reveal>
+              <h3 class="pricing-card__name">STARTER</h3>
+              <p class="pricing-card__price">Mulai Rp 1.500.000</p>
+              <p class="pricing-card__for">
+                Untuk: Portfolio, Landing Page, Profil UMKM
+              </p>
+              <ul class="pricing-card__list">
+                <li>1 Halaman Utama / Max 3 Halaman Statis</li>
+                <li>Desain Responsive (Mobile &amp; Desktop)</li>
+                <li>Integrasi WhatsApp Chat &amp; Form Kontak</li>
+                <li>Free Hosting &amp; Domain (.com/.id) 1 Tahun</li>
+                <li>Setup Google Maps &amp; Analitik Dasar</li>
+              </ul>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20untuk%20paket%20STARTER."
+                class="btn btn--outline btn--block"
+                target="_blank"
+                rel="noopener"
+                >Konsultasi Gratis</a
+              >
+            </article>
+
+            <article class="pricing-card pricing-card--popular" data-reveal>
+              <span class="pricing-card__badge">Paling populer</span>
+              <h3 class="pricing-card__name">BUSINESS</h3>
+              <p class="pricing-card__price">Mulai Rp 3.500.000</p>
+              <p class="pricing-card__for">
+                Untuk: Profil Perusahaan, Instansi, Sekolah
+              </p>
+              <ul class="pricing-card__list">
+                <li>Custom Design &amp; Integrasi CMS</li>
+                <li>Up to 10 Halaman (Tentang Kami, Layanan, Blog, dll)</li>
+                <li>Free Hosting &amp; Domain 1 Tahun</li>
+                <li>SEO Search Console &amp; Google Analytics</li>
+                <li>Support Teknis &amp; Backup Data 3 Bulan</li>
+              </ul>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20konsultasi%20untuk%20paket%20BUSINESS."
+                class="btn btn--primary btn--block"
+                target="_blank"
+                rel="noopener"
+                >Konsultasi Gratis</a
+              >
+            </article>
+
+            <article class="pricing-card" data-reveal>
+              <h3 class="pricing-card__name">CUSTOM</h3>
+              <p class="pricing-card__price">Hubungi Kami</p>
+              <p class="pricing-card__for">
+                Untuk: E-Commerce Custom, Dashboard, Sistem Informasi
+              </p>
+              <ul class="pricing-card__list">
+                <li>Pengembangan Sistem dari Nol (Laravel / React)</li>
+                <li>Sistem Autentikasi Keamanan Ganda (MFA/Role-based)</li>
+                <li>Integrasi API (Payment Gateway, WhatsApp)</li>
+                <li>Dokumentasi Kode &amp; API Lengkap</li>
+                <li>Garansi Bug-Free &amp; Pemeliharaan 6 Bulan</li>
+              </ul>
+              <a
+                href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20mendiskusikan%20project%20custom."
+                class="btn btn--outline btn--block"
+                target="_blank"
+                rel="noopener"
+                >Konsultasi Gratis</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TESTIMONIALS ================= -->
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <h2 class="section-title">Apa kata client kami?</h2>
+
+          <div class="testimonials__grid">
+            <article class="testimonial" data-reveal>
+              <p class="testimonial__quote">
+                Komunikasinya mudah dan hasil akhirnya sesuai kebutuhan kami.
+              </p>
+              <footer class="testimonial__author">
+                <strong>Rizky Pratama</strong>
+                <span>Owner UMKM</span>
+              </footer>
+            </article>
+
+            <article class="testimonial" data-reveal>
+              <p class="testimonial__quote">
+                Sistemnya membantu mengelola data sekolah dengan jauh lebih
+                rapi.
+              </p>
+              <footer class="testimonial__author">
+                <strong>Siti Rahma</strong>
+                <span>Kepala Sekolah</span>
+              </footer>
+            </article>
+
+            <article class="testimonial" data-reveal>
+              <p class="testimonial__quote">
+                Prosesnya transparan, kami selalu tahu perkembangan project.
+              </p>
+              <footer class="testimonial__author">
+                <strong>Andi Wijaya</strong>
+                <span>Founder Startup</span>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FAQ ================= -->
+      <section class="faq" id="faq">
+        <div class="container faq__wrap">
+          <h2 class="section-title">Pertanyaan yang sering ditanyakan</h2>
+
+          <div class="faq__list">
+            <div class="faq-item">
+              <button class="faq-item__question" aria-expanded="false">
+                <span>Apakah bisa membuat aplikasi custom?</span>
+                <span class="faq-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__answer">
+                <p>
+                  Ya. Aplikasi dapat dibuat berdasarkan kebutuhan, workflow,
+                  user, dan fitur yang diperlukan.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-item__question" aria-expanded="false">
+                <span>Apakah saya harus sudah punya desain?</span>
+                <span class="faq-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__answer">
+                <p>
+                  Tidak. Desain dapat dibuat dari awal berdasarkan kebutuhan
+                  project.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-item__question" aria-expanded="false">
+                <span>Apakah bisa integrasi payment gateway?</span>
+                <span class="faq-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Bisa, selama tersedia API atau integrasi yang sesuai.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-item__question" aria-expanded="false">
+                <span>Apakah website responsive?</span>
+                <span class="faq-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__answer">
+                <p>
+                  Ya. Website dirancang agar nyaman di desktop, tablet, dan
+                  mobile.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-item__question" aria-expanded="false">
+                <span>Berapa lama pengerjaan?</span>
+                <span class="faq-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__answer">
+                <p>
+                  Tergantung kompleksitas project. Estimasi akan disampaikan
+                  saat konsultasi.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-item__question" aria-expanded="false">
+                <span>Apakah ada maintenance setelah project selesai?</span>
+                <span class="faq-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__answer">
+                <p>Tersedia maintenance dan support setelah project selesai.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= FINAL CTA ================= -->
+      <section class="final-cta" id="cta">
+        <div class="container final-cta__inner">
+          <h2 class="final-cta__title">Punya ide website atau aplikasi?</h2>
+          <p class="final-cta__desc">
+            Ceritakan kebutuhan Anda. Kami bantu menentukan solusi, fitur, dan
+            estimasi pengembangannya.
+          </p>
+          <div class="final-cta__actions">
+            <a
+              href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website%2Faplikasi%20custom.%20Saya%20ingin%20berkonsultasi%20mengenai%20project%20saya."
+              class="btn btn--primary btn--lg"
+              target="_blank"
+              rel="noopener"
+            >
+              <i data-lucide="message-circle"></i>
+              Konsultasi Gratis
+            </a>
+            <a href="#portfolio" class="btn btn--ghost">Lihat Portfolio</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a
+            href="#hero"
+            class="navbar__brand footer__brand-name"
+            aria-label="Garudev, kembali ke atas"
+          >
+            <!-- <svg class="navbar__mark" viewBox="0 0 32 32" aria-hidden="true">
+              <rect width="32" height="32" rx="9" fill="#2563EB"></rect>
+              <path
+                d="M21.5 12.4c-1-1.5-2.8-2.4-4.8-2.4-3.1 0-5.6 2.5-5.6 5.6s2.5 5.6 5.6 5.6c2 0 3.8-.9 4.8-2.4"
+                stroke="#fff"
+                stroke-width="2.4"
+                fill="none"
+                stroke-linecap="round"
+              ></path>
+              <path
+                d="M16.7 15.6h5.6"
+                stroke="#fff"
+                stroke-width="2.4"
+                stroke-linecap="round"
+              ></path>
+            </svg> -->
+            <span class="navbar__word">Garudev</span>
+          </a>
+          <p>
+            Partner pengembangan digital untuk membangun solusi yang sesuai cara
+            bisnis Anda bekerja.
+          </p>
+        </div>
+
+        <nav class="footer__col" aria-label="Layanan">
+          <h3>Layanan</h3>
+          <ul>
+            <li><a href="#services">Website</a></li>
+            <li><a href="#services">E-Commerce</a></li>
+            <li><a href="#services">Custom App</a></li>
+            <li><a href="#services">Dashboard</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__col" aria-label="Perusahaan">
+          <h3>Perusahaan</h3>
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#process">Proses</a></li>
+            <li><a href="#pricing">Harga</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col footer__col--contact">
+          <h3>Hubungi kami</h3>
+          <ul class="footer__social">
+            <li>
+              <a href="#" aria-label="WhatsApp"
+                ><i data-lucide="message-circle"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Email"><i data-lucide="mail"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram"
+                ><i data-lucide="instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="LinkedIn"
+                ><i data-lucide="linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p>© 2026 Garudev</p>
+        <div class="footer__legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= MOBILE STICKY CTA ================= -->
+    <a
+      href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20berkonsultasi%20mengenai%20project%20saya."
+      class="sticky-cta"
+      target="_blank"
+      rel="noopener"
+    >
+      <i data-lucide="message-circle"></i>
+      Konsultasi Gratis
+    </a>
+
+    <!-- ================= PORTFOLIO MODAL ================= -->
+    <div
+      class="modal"
+      id="portfolio-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+    >
+      <div class="modal__overlay" data-modal-close></div>
+      <div class="modal__content" role="document">
+        <button class="modal__close" data-modal-close aria-label="Tutup modal">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="modal__body" id="portfolio-modal-body">
+          <!-- diisi melalui JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
