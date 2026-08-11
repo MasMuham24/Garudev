@@ -115,9 +115,9 @@ button {
     }
 }
 
-.text-accent {
+/* .text-accent {
     color: var(--accent);
-}
+} */
 
 .eyebrow {
     font-family: var(--font-mono);
